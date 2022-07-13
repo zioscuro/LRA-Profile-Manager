@@ -3,7 +3,7 @@ WebApplication for CVs management in an AEC organization
 
 My goal for this project is to develop a simple MVC application and test new tecnologies.
 
-##Roadmap
+## Roadmap
 - Static frontend mockup site HTML/CSS/JS with Bootstrap
 - Initial backend setup with Java classes
 - Add jsp pages and servlets
