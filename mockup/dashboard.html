@@ -5,21 +5,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LRA-ProfileManager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
   <!-- NAVBAR -->
-  <nav>
+  <nav class="navbar">    
     <!-- logo -->
-    <a href="https://github.com/zioscuro/LRA-Profile-Manager">LRA-ProfileManager</a>
-
-    <!-- hamburger menu -->
-    <button>hamburger</button>
-
+    <a href="https://github.com/zioscuro/LRA-Profile-Manager">LRA-ProfileManager</a>    
     <!-- navbar links -->
-    <ul>
+    <ul>      
       <li>
         <a href="./main.html">Home</a>
       </li>
@@ -29,15 +28,16 @@
       <li>
         <a href="./profile.html">Profiles</a>
       </li>
-    </ul>
-
-    <!-- login/signin buttons -->
-    <form>
-      <button type="button">Sign In</button>
-      <button type="button">Login</button>
-    </form>
-
+      <!-- login/signin buttons -->
+      <li class="btn-access">
+        <button class="btn-sign-up" type="button">Sign Up</button>           
+        <button class="btn-login">Login</button>        
+      </li>
+    </ul>    
+    <!-- hamburger menu -->
+    <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
   </nav>
+  <!-- NAVBAR END -->
 
   <!-- DASHBOARD -->
   <div class="container">

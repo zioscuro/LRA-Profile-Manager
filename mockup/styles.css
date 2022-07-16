@@ -1,0 +1,120 @@
+/*  GENERAL SETUP */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #343A40;
+    padding: 10px 20px;
+    color: white;    
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;    
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 15px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a:link, .navbar a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar button {
+    height: 2.5rem;
+    background-color: #d9d9d9;
+    color: #343A40;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.btn-access {
+    display: flex;
+    gap: 15px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* RESPONSIVE CONTAINER */
+
+.container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+
+/* PROFILE CARDS */
+.profile-card {
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+}
+
+.profile-card ul {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    gap: 10px;
+}
+
+.profile-card li {
+    list-style: none;
+}
+
+.profile-card i {
+    color:#343A40;    
+}
+
+/* FOOTER */
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+
+/* MEDIA QUERIES */
+/* hamburger menu */
+@media screen and (max-width: 850px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+        
+}
