@@ -23,7 +23,9 @@ html {
 }
 
 .navbar ul {
+    flex: 1;
     display: flex;
+    justify-content: space-between;
     gap: 10px;    
     align-items: center;
     font-size: 1.5rem;
@@ -39,17 +41,25 @@ html {
     color: white;
 }
 
+.navbar button:hover {  
+    background-color: #343A40;
+    color: #d9d9d9;
+    border: 3px solid #d9d9d9;
+}
+
 .navbar button {
     height: 2.5rem;
+    line-height: 100%;
     background-color: #d9d9d9;
     color: #343A40;
     font-size: 1.2rem;
-    border: none;
+    border: 3px solid #d9d9d9;
     border-radius: 3px;
     padding: 10px 15px;
 }
 
 .btn-access {
+    margin-left: auto;
     display: flex;
     gap: 15px;
 }
