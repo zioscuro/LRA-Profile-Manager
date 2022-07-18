@@ -36,7 +36,17 @@ html {
     list-style: none;
 }
 
-.navbar a:link, .navbar a:visited {
+.navbar ul a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.navbar .active {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .logo {
     text-decoration: none;
     color: white;
 }
@@ -55,13 +65,19 @@ html {
     font-size: 1.2rem;
     border: 3px solid #d9d9d9;
     border-radius: 3px;
-    padding: 10px 15px;
+    padding: 10px 15px;    
 }
 
 .btn-access {
     margin-left: auto;
     display: flex;
     gap: 15px;
+}
+
+.btn-access button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hamburger-menu {
