@@ -9,6 +9,14 @@ html {
     font-size: 15px;
 }
 
+.profile-card, .profile-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px lightgray;
+}
+
 /* NAVBAR */
 .navbar {
     background-color: #343A40;
@@ -80,10 +88,10 @@ html {
     display: none;
 }
 
-/* PROFILE CARDS */
+/* HOMEPAGE PROFILE CARDS */
 
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     min-height: 100vh;
     margin: auto;
     display: flex;
@@ -105,11 +113,6 @@ h1 {
 
 .profile-card {
     width: 270px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 0px 5px 10px 0px lightgray;
 }
 
 .profile-card img {
@@ -132,6 +135,22 @@ h1 {
     color:#343A40;    
 }
 
+/* PROFILE PAGE */
+.profile-container {
+    margin: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-identity {
+    flex-grow: 1;
+}
+
+.profile-data {
+    flex-grow: 3;
+}
+
 /* FOOTER */
 footer {
     background-color: lightgrey;
@@ -152,6 +171,12 @@ footer {
 
     .navbar ul {
         display: none;
+    }        
+}
+
+/* profile page */
+@media screen and (max-width: 870px){
+    .profile-container {
+        display: block;
     }
-        
 }
