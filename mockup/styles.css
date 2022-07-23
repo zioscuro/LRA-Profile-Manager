@@ -12,7 +12,7 @@ html {
 /* NAVBAR */
 .navbar {
     background-color: #343A40;
-    padding: 10px 20px;
+    padding: 10px 50px;
     color: white;    
     font-size: 2rem;
     position: sticky;
@@ -51,36 +51,32 @@ html {
     color: white;
 }
 
+.navbar button {
+    background-color: #d9d9d9;
+    color: #343A40;
+    font-size: 1.2rem;
+    border: 3px solid #d9d9d9;
+    border-radius: 3px;
+    padding: 0.5rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar button:hover {  
     background-color: #343A40;
     color: #d9d9d9;
     border: 3px solid #d9d9d9;
 }
 
-.navbar button {
-    height: 2.5rem;
-    line-height: 100%;
-    background-color: #d9d9d9;
-    color: #343A40;
-    font-size: 1.2rem;
-    border: 3px solid #d9d9d9;
-    border-radius: 3px;
-    padding: 10px 15px;    
-}
-
 .btn-access {
     margin-left: auto;
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
-.btn-access button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hamburger-menu {
+#hamburger-menu {
     display: none;
 }
 
@@ -149,8 +145,8 @@ footer {
 
 /* MEDIA QUERIES */
 /* hamburger menu */
-@media screen and (max-width: 850px) {
-    .hamburger-menu {
+@media screen and (max-width: 870px) {
+    #hamburger-menu {
         display: block;
     }
 
